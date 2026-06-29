@@ -1,0 +1,30 @@
+# Python Cache (ملفات الكاش التلقائية التي يولدها بايثون)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual Environments (بيئات العمل الافتراضية - لا تُرفع أبداً لأن حجمها مئات الميجابايت)
+venv/
+.venv/
+env/
+ENV/
+
+# Data & Large Files (ملفات البيانات والفهارس الضخمة التي أنتجها كودك)
+*.pkl
+*.pickle
+*.jsonl
+*.csv
+data/
+indices/
+output/
+
+# IDEs and Editors (إعدادات محررات الأكواد الخاصة بجهازك فقط)
+.vscode/
+.idea/
+*.swp
+
+# OS generated files (ملفات النظام التلقائية المخفية)
+.DS_Store
+Thumbs.db
